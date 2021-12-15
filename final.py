@@ -137,7 +137,14 @@ fread.close()
 #print(LibLogs)
 print(booklist)
 
-
+print("option one: can a student borrow a book")
+print("option two: what are the most popular books in the library, how many days were they borrowed")
+option= int(input("Please enter an option"))
+if option==1:
+    if names[2]>0:
+        print("no, the student cannot borrow a book")
+    else: print("yes the student can borrow a book")
+if option==2: 
 
 
 
